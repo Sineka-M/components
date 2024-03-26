@@ -1,0 +1,28 @@
+.video-player {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  
+  .video {
+    width: 100%;
+  }
+  
+  .controls {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .control-button {
+    margin-right: 10px;
+  }
+  
+  .control-volume {
+    width: 100px;
+    margin-right: 10px;
+  }
+  
+  .control-progress {
+    flex-grow: 1;
+  }
+  
