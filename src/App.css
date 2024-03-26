@@ -1,0 +1,50 @@
+.main {
+  width: 40rem;
+  margin: 0 auto; 
+  border: 1px solid #ccc;
+  background-color: rgb(227, 21, 172); 
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header button {
+  font-size: 1.9rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  padding: 0 1rem; 
+}
+
+.box {
+  height: 2rem;
+  background-color: #9bc; 
+  border: 1px solid #aeaeae; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.box.empty {
+  background-color: rgb(243, 243, 241);
+  cursor: default;
+}
+
+.box.selected {
+  background-color: #007bff;
+  color: white;
+}
+.heading-container {
+  text-align: center;
+}
+
