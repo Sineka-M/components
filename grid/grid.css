@@ -1,0 +1,22 @@
+/* styles.css */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid with minimum width of 200px */
+    gap: 20px; /* Gap between grid items */
+  }
+  
+  .grid-item {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .grid-container {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust columns for smaller screens */
+    }
+  }
+  
